@@ -1,0 +1,20 @@
+//--- Import Helper Pages
+@import "./helper/_variables";
+@import "./helper/_responsive";
+@import "./helper/functions";
+
+//--- Import Pages
+@import "./propertys/_grid";
+@import "./propertys/_flex";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open-Sans', sans-serif;
+}
+
+h2 {
+  margin: 30px;
+  text-align: center;
+}

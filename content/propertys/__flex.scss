@@ -1,0 +1,21 @@
+.flex__center {
+  @extend %flexCenter;
+}
+
+@each $d in $displayList {
+  .d__#{$d} {
+    display: #{$d};
+  }
+}
+
+@each $justify in $justifyContent {
+  .justify__#{$justify} {
+    justify-content: #{$justify};
+  }
+}
+
+@each $align in $alignItems {
+  .align__#{$align} {
+    align-items: #{$align};
+  }
+}
