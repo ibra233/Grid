@@ -21,3 +21,9 @@
     @content;
   }
 }
+
+@mixin gr-mmd {
+  @media screen and (max-width:#{$grid-md}px) {
+    @content;
+  }
+}
