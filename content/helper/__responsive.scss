@@ -17,7 +17,7 @@
 }
 
 @mixin gr-xxs {
-  @media screen and (max-width:#{$grid-sm}px) {
+  @media screen and (min-width:#{$grid-xxs}px) {
     @content;
   }
 }

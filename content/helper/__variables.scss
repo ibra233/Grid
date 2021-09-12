@@ -1,10 +1,12 @@
 $gridBoundary: 12;
 $gridBetweens: 0, 10, 20;
+$mp: 5, 10, 15, 20;
 
 $grid-lr: 1024;
 $grid-md: 800;
 $grid-sm: 450;
+$grid-xxs: 0;
 
-$displayList: "flex", "block", "inline-block", "inline", "none";
-$justifyContent: "center", "space-between", "flex-start", "flex-end";
+$displayList: "flex", "block", "inline-block", "inline", "none", "inline-flex";
+$justifyContent: "center", "space-between", "flex-start", "flex-end", "space-around", "space-evenly";
 $alignItems: "center", "flex-start", "flex-end";

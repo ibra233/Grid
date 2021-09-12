@@ -2,14 +2,14 @@
   @if $breakpoint=="" {
     @if $required==false {
       .gr-#{$unit}-#{$between} {
-        margin: 10px #{$between}px;
+        margin: #{$between}px;
         width: calc((100% - #{$extr}) / (#{$gridBoundary} / #{$unit}));
       }
     }
 
     @else {
       .gr-#{$unit}-#{$between} {
-        margin: 10px #{$between}px !important;
+        margin: #{$between}px !important;
         width: calc((100% - #{$extr}) / (#{$gridBoundary} / #{$unit})) !important;
       }
     }
@@ -18,14 +18,14 @@
   @else {
     @if $required==false {
       .gr-#{$unit}-#{$between}-#{$breakpoint} {
-        margin: 10px #{$between}px;
+        margin: #{$between}px;
         width: calc((100% - #{$extr}) / (#{$gridBoundary} / #{$unit}));
       }
     }
 
     @else {
       .gr-#{$unit}-#{$between}-#{$breakpoint} {
-        margin: 10px #{$between}px !important;
+        margin: #{$between}px !important;
         width: calc((100% - #{$extr}) / (#{$gridBoundary} / #{$unit})) !important;
       }
     }

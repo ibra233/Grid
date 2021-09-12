@@ -1,0 +1,89 @@
+//--- Margin
+@for $i from 1 through length($mp) {
+  .m-#{$i} {
+    margin: #{nth($mp, $i)}px;
+  }
+}
+
+@for $i from 1 through length($mp) {
+  .mt-#{$i} {
+    margin-top: #{nth($mp, $i)}px;
+  }
+}
+
+@for $i from 1 through length($mp) {
+  .mb-#{$i} {
+    margin-bottom: #{nth($mp, $i)}px;
+  }
+}
+
+@for $i from 1 through length($mp) {
+  .mr-#{$i} {
+    margin-right: #{nth($mp, $i)}px;
+  }
+}
+
+@for $i from 1 through length($mp) {
+  .ml-#{$i} {
+    margin-left: #{nth($mp, $i)}px;
+  }
+}
+
+@for $i from 1 through length($mp) {
+  .mx-#{$i} {
+    margin-right: #{nth($mp, $i)}px;
+    margin-left: #{nth($mp, $i)}px;
+  }
+}
+
+@for $i from 1 through length($mp) {
+  .my-#{$i} {
+    margin-top: #{nth($mp, $i)}px;
+    margin-bottom: #{nth($mp, $i)}px;
+  }
+}
+
+//--- Padding
+@for $i from 1 through length($mp) {
+  .p-#{$i} {
+    padding: #{nth($mp, $i)}px;
+  }
+}
+
+@for $i from 1 through length($mp) {
+  .pt-#{$i} {
+    padding-top: #{nth($mp, $i)}px;
+  }
+}
+
+@for $i from 1 through length($mp) {
+  .pb-#{$i} {
+    padding-bottom: #{nth($mp, $i)}px;
+  }
+}
+
+@for $i from 1 through length($mp) {
+  .pr-#{$i} {
+    padding-right: #{nth($mp, $i)}px;
+  }
+}
+
+@for $i from 1 through length($mp) {
+  .pl-#{$i} {
+    padding-left: #{nth($mp, $i)}px;
+  }
+}
+
+@for $i from 1 through length($mp) {
+  .px-#{$i} {
+    padding-right: #{nth($mp, $i)}px;
+    padding-left: #{nth($mp, $i)}px;
+  }
+}
+
+@for $i from 1 through length($mp) {
+  .py-#{$i} {
+    padding-top: #{nth($mp, $i)}px;
+    padding-bottom: #{nth($mp, $i)}px;
+  }
+}
