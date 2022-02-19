@@ -11,7 +11,7 @@ xxs           | sm                | md               | lr
 <hr />
 
 ### Açıklama
-Grid ekranı 12 birime böler. "gr-" ifadesinden sonra gelen ilk değer class 'ın verildiği elemanın kaç birim olacağını, ikinci değer divler arasında ne kadar boşluk olacağını (0, 10px, 20px 'lik boşluk bırakılabilir), üçüncü değer ise hangi ekran çözünürlükleri için geçerli olcağını belirtir.
+Grid ekranı 12 birime böler. "gr-" ifadesinden sonra gelen ilk değer class 'ın verildiği elemanın kaç birim olacağını, ikinci değer class 'ın verildiği elemanların etrafında ne kadar boşluk olacağını (0, 10px, 20px 'lik boşluk bırakılabilir), üçüncü değer ise hangi ekran çözünürlükleri için geçerli olcağını belirtir.
 
 ### Örnek Responsive Kodları
 
