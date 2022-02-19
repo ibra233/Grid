@@ -25,7 +25,7 @@ Grid ekranı 12 birime böler. "gr-" ifadesinden sonra gelen ilk değer class '�
 ```
 
 Yukarıdaki kodda 0px 'den 800px 'e kadar 6 birimlik bir boyut oluşturalacaktır, 800px 'den sonrası için class 'ta belirtilen değerler kadarlık boyut 
-oluşturalacaktır
+oluşturalacaktır. Ayrıca "grid__box" yerine "grid__container" 'da kullanılabilir. Aralarındaki fark "grid__box" ekranın tamamını kullanırken, "grid__container" ekranın %85 'lik bir kısmını kullanır.
 
 <hr />
 
