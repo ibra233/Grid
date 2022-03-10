@@ -24,6 +24,7 @@
 .grid__row {
   @include gr-xxs {
 
+    // TODO: 27-37 satırları arasındaki kodlar breakpoint dışındada çalışyor onu DÜZELT
     [class*="gr-7"],
     [class*="gr-8"],
     [class*="gr-9"],
