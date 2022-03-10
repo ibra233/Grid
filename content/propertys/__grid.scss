@@ -23,25 +23,10 @@
 
 .grid__row {
   @include gr-xxs {
-
-    // TODO: 27-37 satırları arasındaki kodlar breakpoint dışındada çalışyor onu DÜZELT
-    [class*="gr-7"],
-    [class*="gr-8"],
-    [class*="gr-9"],
-    [class*="gr-10"],
-    [class*="gr-11"],
-    [class*="gr-12"] {
-      width: 100%;
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-
     @for $i from 1 through $gridBoundary {
       @for $j from 1 through length($gridBetweens) {
-        @if $i<=($gridBoundary / 2) {
           $extraction: #{(nth($gridBetweens, $j) * 2) * ($gridBoundary / $i)}px;
           @include gr-create($i, nth($gridBetweens, $j), $extraction, "xxs");
-        }
       }
     }
   }
