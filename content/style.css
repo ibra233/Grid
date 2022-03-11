@@ -365,16 +365,7 @@
 }
 
 @media screen and (min-width: 0px) {
-  .grid__row [class*="gr-7"],
-  .grid__row [class*="gr-8"],
-  .grid__row [class*="gr-9"],
-  .grid__row [class*="gr-10"],
-  .grid__row [class*="gr-11"],
-  .grid__row [class*="gr-12"] {
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
+  
   .grid__row .gr-1-0-xxs {
     margin: 0px;
     width: calc((100% - 0px) / (12 / 1));
